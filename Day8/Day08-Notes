@@ -1,0 +1,12 @@
+Functions can have inputs.
+def function(input):
+    print(input)
+
+function(input)
+    
+The name of the input variable is called
+a parameter while the actual value of the
+input is called an argument.
+A function can take multiple inputs. Order
+does matter in positional arguments while
+it doesn't matter in keyword argukments.

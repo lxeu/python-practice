@@ -1,0 +1,25 @@
+randint - Generates random integer within
+boundary inclusive of both values.
+random - Generates random float from 0 inclusive
+to 1 not inclusive. Can be manipulated with
+multiplication
+Modules are parts of a complete program and 
+users may make their own modules.
+
+append - adds an item to the last value of a list
+insert - list.insert(index, value) right after index
+specified
+remove - list.remove(value) specified value. Returns
+ValueError if value is not found in list.
+pop - list.pop(index) Removes specified index in a list.
+If no index is specified, removes last item in list.
+
+list within a list can be made by
+list1 = [value1, value2, value3, value4]
+list2 = [value5, value6]
+
+list = [list1, list2]
+output: list = [[value1, value2, value3, value4],[value5, value6]]
+
+To pull item from a nested list grid, do this
+list[i1][i2] where i1 is row (horizontal) and i2 is column (vertical)

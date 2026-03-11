@@ -1,0 +1,15 @@
+def func():
+    value = 1 + 1
+    return value
+
+value would be the output of the function.
+output can be stored by
+
+output = func()
+
+Docstrings can be used to write function 
+documentation. They are the first line
+after defining a function and must be
+surrounded by three quotations. Eg
+def func()
+    """docstring"""

@@ -1,0 +1,9 @@
+A step to debugging is to list all the assumptions you make with your code and then review and see which ones are false.
+
+Reproduce the bug if theres some scenarios where a bug appears
+
+Play computer and run through each line of code as how the computer would
+
+Try and Except blocks can be used to catch errors.
+
+Use print statements to identify errors

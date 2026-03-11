@@ -1,0 +1,7 @@
+Python dictionaries are similar to lists but they
+have a key and a value
+
+dict = {"key1": "value1", "key2": "value2"}
+multiple lists and dictionaries can be nested inside
+dictionaries and indexed by putting brackets with
+index right besides each other.

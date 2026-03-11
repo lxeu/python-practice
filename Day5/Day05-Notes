@@ -1,0 +1,6 @@
+For loops can be used to run a single line of
+code multiple times.
+range(start, end, inrement) is non inclusive of end.
+
+For the challenge the shuffle function could have been used instead
+if I generated the ordered list and then used the shuffle function.

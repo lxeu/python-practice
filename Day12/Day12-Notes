@@ -1,0 +1,4 @@
+Global variables have a scope of the entire program.
+They are accessable both in and out of functions
+Local variables are those defined within a function.
+When used outside a function, it will give an error.
