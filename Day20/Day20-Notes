@@ -1,0 +1,2 @@
+You put self. in front of attributes that are initialized in the init function.
+Variables created within init or other functions are instance variables and can be accessed throughout a class using self.
