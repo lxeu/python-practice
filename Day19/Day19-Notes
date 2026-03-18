@@ -1,0 +1,2 @@
+Instances - objects constructed from the same class and each object can be initialized with different attributes, also called the state
+Higher order functions are called through another funciton
