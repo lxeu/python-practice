@@ -1,0 +1,16 @@
+Classes can inherit from other classes, inheriting methods and attributes.
+Methods inherited can retain their same functionality from the super/parent class and can also be modified to perform extra tasks.
+
+Slicing:
+list[3:5]
+item at index 3 and 4. (Inclusive:Exclusive)
+list[3:]
+item at index 3 to the rest of the list
+list[:3]
+item at the start of the list to item at index 3 not inclusive
+list[2:5:2]
+every other item starting at 2
+list[::2]
+every other item in a list
+list[::-1]
+start from end of list to start
