@@ -1,0 +1,14 @@
+Absolute file paths go from core to the current file
+Relative file paths are formated with a ./file to tell the computer to look in the current folder
+../file will tell the computer go one step up in the hierarchy, going to the parent folder.
+
+At this stage, focus on optimizing for readability rather than efficiency and the shortest number of lines.
+
+You can access files through your editor.
+with open(file) as file_name
+opens a file and you don't need to remember to close it after because the actions will be indented.
+"r" mode = read 
+"a" mode = append (add content without removing previous content)
+"w" mode = write (previous text is removed. If file doesn't exist, it will create a new file for you)
+
+this is so cool
