@@ -1,0 +1,14 @@
+List comprehension:
+Modifying a list with only one line of code
+new_list = [new_item for item in list]
+e.g. adding 1 to each value from an existing list
+new_list = [n + 1 for n in nums]
+
+Conditional list comprehension:
+new_list = [new_item for item in list if test]
+
+Dictionary comprehension (with list):
+new_dict = {new_key: new_value for item in list}
+
+Dictionary comprehension (with dictionary):
+new_dict = {new_key: new_value for (key, value) in dict.items()}
