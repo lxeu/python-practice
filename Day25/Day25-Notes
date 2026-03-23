@@ -1,0 +1,3 @@
+Pandas is a library in python that provides easy handling of csv files into tabular data.
+A DataFrame data type in pandas refers to the entire table while a series refers to a column.
+t.goto(state_data.x, (yvalue)) for example, did not work because state_data.x retrieved the x coordinate as well as the index of it. Using .item() (state_data.x.item()) correctly retreives the x coordinate by itself. Part of pandas*
