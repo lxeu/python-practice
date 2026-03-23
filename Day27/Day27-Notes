@@ -1,0 +1,8 @@
+Tkinter is the standard for creating graphical interfaces in python
+You can create a function with default values, so that when you call it you don't have to input anything. You can modify the function by calling it and specifying which value you would like to change.
+
+Ulimited positional arguments: Using *args as an input in a function will tell the function to take an unlimited number of inputs.
+
+Ulimited key word arguments: Turns input into a dictionary, allowing you to access values with keywords.
+
+To loop through dictionary: for key:value in dict.item()
