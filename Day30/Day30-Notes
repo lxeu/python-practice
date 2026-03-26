@@ -1,0 +1,16 @@
+You can catch exceptions (errors) in python with the try except else and finally methods.
+
+try: Something that might cause an exceptions
+except: Do this if there is an exception
+else: Do this if there were no exceptions
+finally: Do this no matter what happens
+
+You can have multiple excepts to catch multiple errors and do different things with each
+
+except KeyError as error_message: stores the error value inside error_message
+
+You can raise your own value errors
+
+JSON stands for java script object notation and is an easy way to transfer data across the internet, adopted by many programming languages including python.
+
+Only use exception handling if there is no other easy way.
