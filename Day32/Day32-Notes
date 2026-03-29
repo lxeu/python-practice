@@ -1,0 +1,3 @@
+smptlib is a built in library in python that enables emails to be sent through code.
+The datetime module allows you to get the accurate month, year, weekday, and time. You can retrieve the specific month/year/weekday/time by using datetime.now = datetime.datetime.now()
+year = now.year()
