@@ -16,7 +16,7 @@ if week_day == 5:
     msg = EmailMessage()
     msg["Subject"] = "Motivation"
     msg["From"] = my_email
-    msg["To"] = "m.wang33@share.epsb.ca"
+    msg["To"] = "email"
     msg.set_content(random_quote)
     with smtplib.SMTP("smtp.gmail.com", 587) as connection:
         connection.starttls()
