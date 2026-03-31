@@ -1,0 +1,8 @@
+An application programming interface (API) is a set of commands, functions, protocols, and objects that programmers can use to create software or interact with an external system
+The website is like a restaurant, where the data that powers these websites are the kitchen. Apis are like the menu.
+API endpoint is the location of where the data is stored. Usually just a URL.
+1XX: Hold on
+2XX: Here You Go
+3XX: Permission Denied
+4XX: You Screwed Up
+5XX: Website Screwed Up
