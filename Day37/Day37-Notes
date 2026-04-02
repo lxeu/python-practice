@@ -1,0 +1,7 @@
+HTTP requests consist of
+Get - ask the API for information
+Post - upload information to an API
+Put - update information given to an API
+Delete - Remove information given to an API
+
+Headers can be used to hide your API key from monitors.
