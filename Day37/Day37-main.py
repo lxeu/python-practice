@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 
 USERNAME = "lxeuu"
-TOKEN = "aslkd32feskljf322"
+TOKEN = "hidden"
 GRAPHID = "graph1"
 today = datetime.now()
 
