@@ -1,0 +1,15 @@
+The internet is a long wire connecting computers together. Computers that stay online 24 hours to serve information are called servers, while user computers are called clients.
+HTML - Defines content and structure of a website (images, textboxes, buttons, etc)
+CSS - Styling a website
+Javascript - Behavior of a website and allows it to do things
+A website can exist solely with an HTML file but not a CSS or JS file on its own.
+
+HTML stands for HyperText Markup Language
+
+HyperText refers to links that connect web pages to others
+Markup Language refers to HTML tags that are used to annotate content and define its structural role.
+
+<h1></h1> - header tags
+<p></p> - paragraph tags
+<hr /> - horizontal line
+<br /> - new line
