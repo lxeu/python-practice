@@ -1,0 +1,21 @@
+HTML boiler plate is a standard set of code that is created at the start of every project
+
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Website</title>
+    </head>
+
+    <body>
+        <h1>Hello World!</h1>
+    </body>
+</html>
+
+<ul></ul> unordered list
+<ol></ol> ordered list
+<li></li> list item
+
+There are specific attributes which are related to certain tags and global attributes that can be used on any tags.
+
+<img src="img url" alt="description"> to create images
