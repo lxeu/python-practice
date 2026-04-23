@@ -1,0 +1,34 @@
+CSS or Cascading Style Sheet was made to split apart front end web dev from a complex tax into simpler subtasks.
+
+Inline CSS is the way to give styling to specific elements. Style is put inside the tags. Changing or adding css using inline method can only change one element at a time, so it is considered poor practice in industry and only should be used for testing.
+
+Internal CSS is best for a single page HTML website. 
+
+External CSS is best for multi page HTML websites. CSS code is kept in a separate file. In the main HTML file the CSS code is accessed by a self closing tag called link, and inside of it contains rel, which is the relationship, and href, which is the location of the CSS file. Most commonly used in web dev.
+
+CSS selectors are used to choose specific elements to apply CSS to.
+
+You can make a class attribute to tags and reference the class by 
+.class_name {
+    CSS code here
+}
+to give CSS to every element with the  class attribute with the same name.
+
+Id selector works the same as class selectors, but they should only be assigned to one element in an entire HTML file, and is accessed with a pound sign. 
+HTML:
+id="main"
+CSS:
+#main{
+    CSS code here
+}
+
+You can assign CSS to elements with specific attributes. e.g. making all draggable paragraph elements into red
+
+p[draggable="true"] {
+    color: red
+}
+
+You can select all elements and apply CSS to them with
+* {
+    CSS code here
+}
