@@ -1,0 +1,10 @@
+You may use hex codes instead of name colors for CSS coloring.
+
+CSS fonts can be styled with color, font weight, font size, and font family.
+
+REM is the best for sizing elements because it refers to the root, offering consistency.
+Font family is the font type. You should put a generic font (serif/sans serif) behind a comma and the font type as backup.
+
+Margin, padding, and border styling exists for CSS box models.
+
+<div></div> is known as the content division element and is used to create artificial boxes. Any elements put between the opening and closing tags are grouped into a box.
