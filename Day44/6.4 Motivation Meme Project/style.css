@@ -6,16 +6,16 @@ h1 {
     text-transform: uppercase;
 }
 
-div {
+.poster {
     color: white;
     font-family: 'Libre Baskerville';
     width: 50%;
     margin-left: 25%;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 5rem;
 }
 
-img {
+.motivation-img {
     border: 5px solid white;
     width: 100%;
 }
