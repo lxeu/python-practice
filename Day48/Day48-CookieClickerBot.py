@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep, time
-from selenium.common.exceptions import NoSuchElementException
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
@@ -16,11 +15,14 @@ english.click()
 
 sleep(0.9)
 
-accept_cookies = driver.find_element(By.XPATH, "//a[text()='Got it!']")
-accept_cookies.click()
+try:
+    accept_cookies = driver.find_element(By.XPATH, "//a[text()='Got it!']")
+    accept_cookies.click()
+except:
+    pass
 
 driver.execute_script("""
-Game.bakeryName = "Selenium Bot's";
+Game.bakeryName = "Selenium Bot";
 Game.bakeryNameRefresh();
 """)
 
@@ -33,27 +35,26 @@ sleep(1)
 
 while True:
     cookie.click()
+    sleep(0.01)
 
     if time() > timeout:
-        try:
-            upgrades = driver.find_elements(By.CSS_SELECTOR, "div[id^='upgrade']")
-            for upgrade in upgrades:
-                if "enabled" in upgrade.get_attribute("class"):
+
+        for upgrade in driver.find_elements(By.CSS_SELECTOR, "div[id^='upgrade']"):
+            try:
+                classes = upgrade.get_attribute("class") or ""
+                if "enabled" in classes:
                     upgrade.click()
                     break
+            except:
+                continue
 
-            products = driver.find_elements(By.CSS_SELECTOR, "div[id^='product']")
-            best_item = None
-            for product in reversed(products):
-                if "enabled" in product.get_attribute("class"):
-                    best_item = product
+        for product in reversed(driver.find_elements(By.CSS_SELECTOR, "div[id^='product']")):
+            try:
+                classes = product.get_attribute("class") or ""
+                if "enabled" in classes:
+                    product.click()
                     break
-
-            if best_item:
-                best_item.click()
-
-        except (NoSuchElementException, ValueError):
-            print("Couldn't find item")
-
+            except:
+                continue
 
         timeout = time() + wait_time
