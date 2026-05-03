@@ -48,13 +48,29 @@ while True:
             except:
                 continue
 
-        for product in reversed(driver.find_elements(By.CSS_SELECTOR, "div[id^='product']")):
-            try:
-                classes = product.get_attribute("class") or ""
-                if "enabled" in classes:
-                    product.click()
-                    break
-            except:
-                continue
+        cookies = driver.execute_script("return Game.cookies")
+        buildings = driver.execute_script("""
+        return Object.values(Game.Objects).map(obj => ({
+            id: obj.id,
+            cost: obj.price,
+            cps: obj.storedCps
+        }));
+        """)
 
+        best = None
+        best_score = 0
+
+        for b in buildings:
+            if cookies >= b["cost"] and b["cps"] > 0:
+                score = b["cps"] / b["cost"]
+
+                if score > best_score:
+                    best_score = score
+                    best = b
+
+        if best:
+            try:
+                driver.find_element(By.ID, f"product{best['id']}").click()
+            except:
+                pass
         timeout = time() + wait_time
