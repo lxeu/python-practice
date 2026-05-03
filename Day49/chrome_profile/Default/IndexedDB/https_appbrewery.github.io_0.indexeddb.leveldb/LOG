@@ -1,9 +1,0 @@
-2026/05/03-14:07:57.649 26650 Reusing MANIFEST /Users/nanwang/100DaysOfCode/Day49/chrome_profile/Default/IndexedDB/https_appbrewery.github.io_0.indexeddb.leveldb/MANIFEST-000001
-2026/05/03-14:07:57.650 26650 Recovering log #7
-2026/05/03-14:07:57.681 26650 Reusing old log /Users/nanwang/100DaysOfCode/Day49/chrome_profile/Default/IndexedDB/https_appbrewery.github.io_0.indexeddb.leveldb/000007.log 
-2026/05/03-14:07:57.700 26652 Compacting 1@1 + 1@2 files
-2026/05/03-14:07:57.724 26652 Generated table #10@1: 14665 keys, 693406 bytes
-2026/05/03-14:07:57.724 26652 Compacted 1@1 + 1@2 files => 693406 bytes
-2026/05/03-14:07:57.728 26652 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/05/03-14:07:57.728 26652 Delete type=2 #5
-2026/05/03-14:07:57.728 26652 Delete type=2 #8

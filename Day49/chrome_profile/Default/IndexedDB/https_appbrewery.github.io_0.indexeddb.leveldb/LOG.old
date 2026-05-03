@@ -1,6 +1,0 @@
-2026/05/03-14:07:28.432 262e7 Reusing MANIFEST /Users/nanwang/100DaysOfCode/Day49/chrome_profile/Default/IndexedDB/https_appbrewery.github.io_0.indexeddb.leveldb/MANIFEST-000001
-2026/05/03-14:07:28.433 262e7 Recovering log #4
-2026/05/03-14:07:28.490 262e7 Reusing old log /Users/nanwang/100DaysOfCode/Day49/chrome_profile/Default/IndexedDB/https_appbrewery.github.io_0.indexeddb.leveldb/000004.log 
-2026/05/03-14:07:46.042 262e9 Level-0 table #8: started
-2026/05/03-14:07:46.061 262e9 Level-0 table #8: 979332 bytes OK
-2026/05/03-14:07:46.064 262e9 Delete type=0 #4
