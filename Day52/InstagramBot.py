@@ -4,6 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 from dotenv import load_dotenv
 import os
+import random
 
 load_dotenv()
 
@@ -73,7 +74,7 @@ class InstaFollower:
         for button in buttons:
             try:
                 button.click()
-                sleep(1.5)
+                sleep(random.uniform(0.5, 2.5))
             except:
                 pass
 
