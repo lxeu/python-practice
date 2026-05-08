@@ -1,0 +1,15 @@
+Frontend languages: HTML, CSS, JavaScript
+Frontend frameworks: React, Angular
+Backend languages: JavaScript, Java, Python, Ruby
+Backend frameworks: Node.js, Flask, Django
+
+Backend components consist of 
+client - client side, the part that faces the user.
+server - powerful computer that is always available to recieve requests over the internet.
+database - a souped up spreadsheet where you're storing all information related to the website.
+
+Functions are first class objects and can be passed around as arguments
+
+You can return inner functions in nested functions and assign a variable to it, allowing you to call the inner_function outside of the main funciton.
+
+Decorator functions are functions that take an existing function and add additional functionality to them. To use these functions, put an @ in front of the decorator name.
