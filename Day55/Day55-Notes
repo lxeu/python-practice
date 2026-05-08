@@ -1,0 +1,7 @@
+Putting <name> in app route creates a variable that can be accessed in the function
+
+debug mode can be used to edit the webpage without having to ctrl c and rerun again to see changes. Do not have this enabled in production.
+
+You can modify path datatypes in app route.
+
+You can render HTML using the inline method in the return
