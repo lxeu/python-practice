@@ -1,0 +1,5 @@
+You can render an html webpage with flask using the render_method and returning the html file. You must put the html file in a file named templates
+
+In flask you must put images in a static file
+
+Holding shift and reloading will do a hard reload, getting rid of cached files. Good for testing
