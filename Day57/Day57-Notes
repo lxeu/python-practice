@@ -1,0 +1,9 @@
+Jinja is a templating language for Python used to create dynamic websites
+ 
+Putting syntax such as double brackets tells the program to evaluate which lines as python and which lines as html
+
+Creating a random number or get the time, import random or time module at the top and create a variable in the server function. Pass the variable into the **kwarg of render_template and access it by double brackets around the variable name in the html file.
+
+Multiline statements have to be enclosed with {%  %}, and at the end of the statement there has to be an {% endfor %} or {% endif %} etc.
+
+You can build a URL with jinja using an anchor tag with double curly brackets surrounding a function name as the href. This will automatically generate a hyperlink to take the user to the method. You can pass keywords as well
